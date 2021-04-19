@@ -61,7 +61,7 @@ module.exports = native;
 /**
  * @typedef {Object} connectionInfo
  * @property {string} host - the host address
- * @property {integer} port - the port number
+ * @property {number} port - the port number
  * @property {string} ns - the IRIS Namespace
  * @property {string} user - user name
  * @property {string} pwd - password
@@ -276,7 +276,7 @@ module.exports = native;
  * NOTE: The lockReference value must begin with '^' to acquire a lock on a global node.
  * @function lock
  * @param {string} lockType - 'S' for shared lock and 'E' for an escalating lock
- * @param {integer} timeout - the number of seconds before the attempt to acquire the lock will timeout
+ * @param {number} timeout - the number of seconds before the attempt to acquire the lock will timeout
  * @param {string} lockReference -  a leading '^' is required for global array references.  Note that lock() and unlock() are different from all other functions. where only a globalName - without the '^' prefix - is required.
  * @param {...string} subscript
  * @returns {boolean}

@@ -1,6 +1,6 @@
 {
     "name": "intersystems-iris-native",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "InterSystems IRIS Native API for Node.js",
     "main": "index.js",
     "scripts": {
